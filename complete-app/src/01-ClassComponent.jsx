@@ -1,24 +1,23 @@
 import { Component } from 'react'
 
-export default class MyComponent extends Component {
+export default class Counter extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      name: 'Jeff'
+      count: 0,
     }
   }
 
   render() {
     return (
       <div className="content">
-        <h1>Class Component</h1>
-        <p>{this.state.name}</p>
+        <p>You clicked {this.state.count} times</p>
         <button
           onClick={() => {
-            this.setState({ name: 'Bob' })
+            this.setState({ count: this.state.count + 1 })
           }}
         >
-          Set Name
+          Click me
         </button>
       </div>
     )

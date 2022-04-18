@@ -1,9 +1,10 @@
-export default function MyComponent() {
+export default function Counter() {
+  function updateCount() {}
+
   return (
     <div className="content">
-      <h1>Functional Component</h1>
-      <p>Jeff</p>
-      <button>Set Name</button>
+      <p>You clicked {0} times</p>
+      <button>Click me</button>
     </div>
   )
 }

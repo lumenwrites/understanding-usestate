@@ -1,18 +1,22 @@
 import { useState } from 'react'
 
-export default function MyComponent() {
-  const [name, setName] = useState('Jeff')
+export default function Counter() {
+  const [count, setCount] = useState(0)
+
+  function updateCount() {
+    // Incorrect:
+    // setCount(count + 1)
+
+    // Correct:
+    setCount((prevState) => {
+      return prevState + 1
+    })
+  }
+
   return (
     <div className="content">
-      <h1>Functional Component</h1>
-      <p>{name}</p>
-      <button
-        onClick={() => {
-          setName('Bob')
-        }}
-      >
-        Set Name
-      </button>
+      <p>You clicked {count} times</p>
+      <button onClick={updateCount}>Click me</button>
     </div>
   )
 }

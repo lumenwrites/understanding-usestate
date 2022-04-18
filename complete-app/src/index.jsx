@@ -10,8 +10,7 @@ import './styles.scss'
 
 import ClassComponent from './01-ClassComponent'
 import FunctionalComponent from './02-FunctionalComponent'
-import Counter from './03-Counter'
-import TodoList from './04-TodoList'
+import TodoList from './03-TodoList'
 
 const rootElement = document.getElementById('root')
 const root = createRoot(rootElement)
@@ -26,7 +25,6 @@ root.render(
           path="function"
           element={<FunctionalComponent />}
         />
-        <Route path="counter" element={<Counter />} />
         <Route path="todo" element={<TodoList />} />
       </Routes>
     </div>
@@ -49,12 +47,6 @@ function Nav() {
         to="/function"
       >
         Function
-      </Link>
-      <Link
-        className={pathname === '/counter' ? 'active' : ''}
-        to="/counter"
-      >
-        Counter
       </Link>
       <Link
         className={pathname === '/todo' ? 'active' : ''}

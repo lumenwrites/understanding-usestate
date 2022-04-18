@@ -11,8 +11,9 @@ npm run start
 
 # Links
 - [Slides](https://slides.com/lumenwrites/usestate)
-- [Starter Files on CodeSandbox](https://codesandbox.io/s/understanding-usestate-starter-files-7zdn8o)
-- [Finished App on CodeSandbox](https://codesandbox.io/s/understanding-usestate-comlpete-n7qfsn)
+- [Starter Files on CodeSandbox](https://codesandbox.io/s/understanding-usestate-starter-files-dq5q0n?file=/src/02-FunctionalComponent.jsx)
+- [Finished App on CodeSandbox](https://codesandbox.io/s/understanding-usestate-comlpete-84tjd8?file=/src/02-FunctionalComponent.jsx)
+
 
 # Learn More
 - [Benefits of using Hooks](https://reactjs.org/docs/hooks-intro.html)
