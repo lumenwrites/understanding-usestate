@@ -1,8 +1,9 @@
 # Understating useState() Lesson
 
-# Running the code
+# Running the app
+
 ```
-git clone
+git clone https://github.com/lumenwrites/understanding-usestate
 cd understanding-usestate/starter-files
 npm i
 npm run start
