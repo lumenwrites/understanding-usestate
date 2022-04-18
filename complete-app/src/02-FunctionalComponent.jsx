@@ -15,8 +15,10 @@ export default function Counter() {
 
   return (
     <div className="content">
-      <p>You clicked {count} times</p>
-      <button onClick={updateCount}>Click me</button>
+      <p>{this.state.count}</p>
+      <button onClick={updateCount}>
+        Increment counter
+      </button>
     </div>
   )
 }

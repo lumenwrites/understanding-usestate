@@ -4,20 +4,20 @@ export default class Counter extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      count: 0,
+      count: 0
     }
   }
 
   render() {
     return (
       <div className="content">
-        <p>You clicked {this.state.count} times</p>
+        <p>{this.state.count}</p>
         <button
-          onClick={() => {
+          onClick={() =>
             this.setState({ count: this.state.count + 1 })
-          }}
+          }
         >
-          Click me
+          Increment counter
         </button>
       </div>
     )
