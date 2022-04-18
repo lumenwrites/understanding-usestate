@@ -1,4 +1,4 @@
-# Understating useState() Lesson
+# Understating useState()
 
 # Running the app
 
@@ -19,3 +19,4 @@ npm run start
 - [Docs on using the State Hook](https://reactjs.org/docs/hooks-state.html)
 - [Rules for using Hooks](https://reactjs.org/docs/hooks-rules.html)
 - [Hooks API reference and advanced use cases](https://reactjs.org/docs/hooks-reference.html)
+- [Building Your Own Hooks](https://reactjs.org/docs/hooks-custom.html)

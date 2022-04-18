@@ -30,7 +30,6 @@ export default function TodoList() {
           {item}
         </div>
       ))}
-      {/* <div className="item">{inputValue}</div> */}
       <input
         onChange={(e) => setInputValue(e.target.value)}
         value={inputValue}
